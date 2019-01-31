@@ -118,10 +118,13 @@
     <None Include="svpng.inc" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="basic.c" />
+    <ClInclude Include="basic.h" />
   </ItemGroup>
   <ItemGroup>
-    <Image Include="basic.png" />
+    <ClCompile Include="test.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="b.png" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

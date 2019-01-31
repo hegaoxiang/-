@@ -20,12 +20,17 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="basic.c">
+    <ClInclude Include="basic.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <Image Include="basic.png">
+    <ClCompile Include="test.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="b.png">
       <Filter>资源文件</Filter>
     </Image>
   </ItemGroup>
